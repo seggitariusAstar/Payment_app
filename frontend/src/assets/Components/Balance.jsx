@@ -5,7 +5,7 @@ export const Balance = () => {
     const[balance,setbalance]=useState("");
    console.log(balance);
     useEffect(()=>{
-      axios.get("http://localhost:3000/api/v1/account/balance",{
+      axios.get("https://payment-web-app-backend.onrender.com/api/v1/account/balance",{
         headers:{
             Authorization:"Bearer "+localStorage.getItem("token")
         }
