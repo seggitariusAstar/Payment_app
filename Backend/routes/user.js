@@ -11,6 +11,7 @@ const signupbody=zod.object({
    firstname:zod.string(),
    lastname:zod.string(),
    password:zod.string()
+   
 
 
 
